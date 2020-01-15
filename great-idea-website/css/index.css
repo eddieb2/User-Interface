@@ -67,29 +67,30 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 body{
+	width: 100%;
 	font-size: 20px;
 	padding:2% 5% 2% 5%;
-	text-align: center;
 }
 
 /* Navigation Bar */
 .navigation {
 	color: gray;
-	width: auto;
-	padding: 20px;
+	width: 100%;
 }
 
 .navigation p{
 	display: inline-block;
-	padding-right: 3%;
-	padding-left: 3%;
+	width: 15%;
+	
 }
 
 /* Need to align this image */
 .logo{
 	display: inline-block;
+	width:
+	/*is there another way to push this 
+	to the furthest side of the nav??*/
 }
-
 
 /* Header*/
 .topContent{
@@ -103,7 +104,36 @@ body{
 
 .logo1 {
 	display: inline-block;
-	width: auto;
+	width: 20%;
 }
 
 /*features & about*/
+/* WHY DO I HAVE TO SET WIDTH TO 49.8% TO GET EVERYTHING EVEN??*/
+.firstBlock div{
+	display: inline-block;
+	width: 49.8%;
+}
+
+.firstBlock{
+	border-top: 1px solid black;
+}
+
+/*services, product & vision*/
+.secondBlock div{
+	display: inline-block;
+	width: 33%;
+}
+
+
+.secondBlock{
+	border-bottom: 1px solid black;
+}
+
+
+
+
+
+
+
+/*Questions*/
+/* Having issues with elements going to the next line while minimizing the screen*/
