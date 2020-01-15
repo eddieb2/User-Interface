@@ -50,11 +50,11 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 		box-sizing: border-box;
-		border: 1px solid black;
+		/* border: 1px solid black; */
 }
 
 html, body {
-    height: 100%;
+    height: auto;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 body{
-	width: 100%;
+	width: auto;
 	font-size: 20px;
 	padding:2% 5% 2% 5%;
 }
@@ -80,21 +80,21 @@ body{
 
 .navigation p{
 	display: inline-block;
-	width: 15%;
+	width: 14%;
 	
 }
 
 /* Need to align this image */
 .logo{
 	display: inline-block;
-	width:
 	/*is there another way to push this 
 	to the furthest side of the nav??*/
+	width: 14%;
+	padding-left: 2%;
+	/*How do I get "great idea" to line up with the other nav bar items?*/
 }
 
 /* Header*/
-.topContent{
-}
 .topContent div{
 	width: 40%;
 	margin-bottom: 10%;
@@ -112,16 +112,26 @@ body{
 .firstBlock div{
 	display: inline-block;
 	width: 49.8%;
+	margin-top: 4%;
 }
 
 .firstBlock{
 	border-top: 1px solid black;
 }
 
+/* Middle Image */
+.middle-img{
+	display: inline-block;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width:100%;
+}
+
 /*services, product & vision*/
 .secondBlock div{
 	display: inline-block;
 	width: 33%;
+	margin-bottom: 4%;
 }
 
 
@@ -129,7 +139,13 @@ body{
 	border-bottom: 1px solid black;
 }
 
+.contact{
+	margin-top: 4%;
+}
 
+footer{
+	text-align: center;
+}
 
 
 
@@ -137,3 +153,5 @@ body{
 
 /*Questions*/
 /* Having issues with elements going to the next line while minimizing the screen*/
+
+/* When I set a border around body it doesn't extend the entire way to the bottom of the screen. Why? Showing that contact and footer are apart of html????*/
