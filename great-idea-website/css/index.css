@@ -95,43 +95,17 @@ body{
 }
 
 /* Header "Innovation On Demand & image*/
-
-.topContent h1{
+.container1{
+	width: 50%	;
+	display: inline-block;
 	text-align: center;
+	font-size: 90px;
 }
 
-header.topContent{
-	height: auto%;
-}
-
-.topContent h1{
-	width: 200px;
-	font-size: 70px;
-	margin-bottom: #;
-}
-
-.logo1 {
-	width: 50%;
+.container2{ 
+	width: auto;
+	display: inline-block;
 	margin-top: 2%;
-	margin-left: 50%;
-}
-
-.container1 {
-	width: auto;
-}
-
-div.container1{
-	display: inline-block;
-	width: auto;
-	margin-left: 20%;
-	margin-bottom: 10%;
-	
-}
-
-div.container2{
-	width: 40%;
-	margin-left: 28%;
-	display: inline-block;
 }
 
 
