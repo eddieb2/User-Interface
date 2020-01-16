@@ -70,6 +70,7 @@ body{
 	width: auto;
 	font-size: 20px;
 	padding:2% 5% 2% 5%;
+	
 }
 
 /* Navigation Bar */
@@ -78,46 +79,64 @@ body{
 	width: 100%;
 }
 
-.navigation p{
+.navigation a{
 	display: inline-block;
 	width: 14%;
 	
 }
 
-/* Need to align this image */
+/* Nav bar image*/
 .logo{
 	display: inline-block;
-	/*is there another way to push this 
-	to the furthest side of the nav??*/
 	width: 14%;
 	padding-left: 2%;
-	/*How do I get "great idea" to line up with the other nav bar items?*/
+	position: relative; 
+	top: 7px;
 }
 
-/* Header*/
+/* Header "Innovation On Demand & image*/
 
 .topContent h1{
 	text-align: center;
 }
 
+header.topContent{
+	height: auto%;
+}
+
 .topContent h1{
-	width: 25%;
-	/* margin-bottom: 10%; */
-	display: inline-block;
-	font-size: 75px;
-	padding-bottom: 0%;
-	padding-top: 0;
-	margin-left: 20%; 
+	width: 200px;
+	font-size: 70px;
+	margin-bottom: #;
 }
 
 .logo1 {
-	display: inline-block;
-	width: auto;
+	width: 50%;
 	margin-top: 2%;
+	margin-left: 50%;
 }
 
-/*features & about*/
-/* WHY DO I HAVE TO SET WIDTH TO 49.8% TO GET EVERYTHING EVEN??*/
+.container1 {
+	width: auto;
+}
+
+div.container1{
+	display: inline-block;
+	width: auto;
+	margin-left: 20%;
+	margin-bottom: 10%;
+	
+}
+
+div.container2{
+	width: 40%;
+	margin-left: 28%;
+	display: inline-block;
+}
+
+
+/*Features & About*/
+/* WHY DO I HAVE TO SET WIDTH TO 49.8% TO GET EVERYTHING EVEN?*/
 .firstBlock div{
 	display: inline-block;
 	width: 49.8%;
@@ -136,18 +155,18 @@ body{
 	width:100%;
 }
 
-/*services, product & vision*/
+/*Services, product & vision*/
 .secondBlock div{
 	display: inline-block;
 	width: 33%;
 	margin-bottom: 4%;
 }
 
-
 .secondBlock{
 	border-bottom: 1px solid black;
 }
 
+/* Last section of th page */
 .contact{
 	margin-top: 4%;
 }
@@ -163,4 +182,4 @@ footer{
 /*Questions*/
 /* Having issues with elements going to the next line while minimizing the screen*/
 
-/* When I set a border around body it doesn't extend the entire way to the bottom of the screen. Why? Showing that contact and footer are apart of html????*/
+/* When I set a border around body it doesn't extend the entire way to the bottom of the screen. Why? Showing that contact and footer are apart of html?*/
