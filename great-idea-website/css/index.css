@@ -115,6 +115,7 @@ body{
 	display: inline-block;
 	width: 49.8%;
 	margin-top: 4%;
+	padding-left: 3%; 
 }
 
 .firstBlock{
@@ -124,9 +125,9 @@ body{
 /* Middle Image */
 .middle-img{
 	display: inline-block;
-	margin-top: 2%;
-	margin-bottom: 2%;
-	width:100%;
+	width: 80%;
+	height: 150px;
+	margin: 2% 10% 2% 10%;
 }
 
 /*Services, product & vision*/
