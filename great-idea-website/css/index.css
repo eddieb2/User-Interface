@@ -50,7 +50,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 		box-sizing: border-box;
-		/* border: 1px solid black; */
+		border: 1px solid black;
 }
 
 html, body {
@@ -95,16 +95,24 @@ body{
 }
 
 /* Header*/
-.topContent div{
-	width: 40%;
-	margin-bottom: 10%;
+
+.topContent h1{
+	text-align: center;
+}
+
+.topContent h1{
+	width: 25%;
+	/* margin-bottom: 10%; */
 	display: inline-block;
 	font-size: 75px;
+	padding-bottom: 0%;
+	padding-top: 0; 
 }
 
 .logo1 {
 	display: inline-block;
-	width: 20%;
+	width: auto;
+	margin-top: 2%;
 }
 
 /*features & about*/
