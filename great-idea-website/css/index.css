@@ -134,6 +134,7 @@ body{
 	display: inline-block;
 	width: 33%;
 	margin-bottom: 4%;
+	padding: 0% 1% 0% 1%;
 }
 
 .secondBlock{
@@ -156,4 +157,4 @@ footer{
 /*Questions*/
 /* Having issues with elements going to the next line while minimizing the screen*/
 
-/* When I set a border around body it doesn't extend the entire way to the bottom of the screen. Why? Showing that contact and footer are apart of html?*/
+/* When I set a border around body it doesn't extend the entire way to the bottom of the screen. Why? Showing that contact and footer are apart of html? (solved)*/
